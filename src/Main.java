@@ -9,7 +9,6 @@ public class Main {
 
         System.out.println(myName + '\n' + mySurname + '\n' + myJob);
 
-
         int mySurnameLength = mySurname.length();
         System.out.println(mySurnameLength);
 
@@ -47,7 +46,6 @@ public class Main {
         byte byteHouseNumber = (byte)houseNumber;
         System.out.println(byteHouseNumber);
 
-
         byte r = 15;
         System.out.println(r);
 
@@ -68,12 +66,10 @@ public class Main {
         e = a++;
         System.out.println(e);
 
-
         StringBuffer greeting = new StringBuffer("Привет!");
         greeting.append("Меня зовут ");
         greeting.append("Даша!");
         System.out.println(greeting);
-
 
         String yourName = "What is your name?";
         System.out.println(yourName);
@@ -81,16 +77,5 @@ public class Main {
         Scanner whatIsYourName = new Scanner(System.in);
         String userInput = whatIsYourName.nextLine();
         System.out.println("Hi," + userInput);
-
-
-
-
-
-
-
-
-
-
-
     }
 }
